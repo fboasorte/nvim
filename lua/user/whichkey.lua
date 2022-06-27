@@ -80,6 +80,7 @@ local opts = {
 
 local mappings = {
   ["n"] = { "<cmd>BufferLineCycleNext<cr>", "Next Buffer" },
+  ["N"] = { "<cmd>BufferLineCyclePrev<cr>", "Previous Buffer" },
   ["b"] = {
     "<cmd>lua require('telescope.builtin').buffers(require('telescope.themes').get_dropdown{previewer = false})<cr>",
     "Buffers",

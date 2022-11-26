@@ -60,7 +60,7 @@ return packer.startup(function(use)
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  use "ellisonleao/gruvbox.nvim"
+  use "morhetz/gruvbox"
   use "srcery-colors/srcery-vim"
 
   -- cmp plugins

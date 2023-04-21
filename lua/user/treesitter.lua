@@ -11,6 +11,7 @@ configs.setup {
     enable = true,
   },
   highlight = {
+    enable = true,
     disable = { "" }, -- list of language that will be disabled
     additional_vim_regex_highlighting = true,
   },
